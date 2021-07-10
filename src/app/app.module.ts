@@ -2,10 +2,15 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { NavBarComponent } from './components/navBar/nav-bar/nav-bar.component';
+import { CarouselComponent } from './components/carousel/carousel/carousel.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule
